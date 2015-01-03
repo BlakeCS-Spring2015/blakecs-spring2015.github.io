@@ -7,7 +7,7 @@
 }
 
 .content-row {
-  background: #fff;
+  background: $brand-info;
 }
 
 #footer {
@@ -87,7 +87,12 @@ ul.social-media-list {
   }
 }
 
+.post-content-area {
+  background: #fff;
+}
+
 .post {
+  padding-bottom: 21px;
   font-size: $font-size-large;
   a {
     color: $brand-info;
@@ -122,10 +127,6 @@ ul.social-media-list {
 
 .post-excerpt {
   font-size: $font-size-large;
-}
-
-.post {
-  padding-bottom: 21px;
 }
 
 .author-info {
