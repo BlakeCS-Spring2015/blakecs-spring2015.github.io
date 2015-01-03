@@ -1,25 +1,37 @@
 ---
 layout: default
 ---
-<div class="col-md-2 col-md-offset-1 sidebar text-right">
-  <h3>Recent Posts</h3>
-  <h3>Authors</h3>
-  <ul class="author-list">
-    {% for author in site.data.authors %}
-    <li>{{ author[1].name }}</li>
-    {% endfor %}
-  </ul>
+<div class="col-md-3 sidebar text-right">
+  <div class="sidebar-block">
+    <h3>Recent Posts</h3>
+    <ul>
+      {% for post in site.posts limit: 3 %}
+      {% assign author = site.data.authors[post.author] %}
+      <li class="recent-post">
+        <span class="recent-post-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+        <span class="recent-post-author">by {{ author.name }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="sidebar-block"><h3>Authors</h3>
+    <ul class="author-list">
+      {% for author in site.data.authors %}
+      <li>{{ author[1].name }}</li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
-<div class="col-md-8">
+<div class="col-md-8 content">
   <ul class="post-list">
     {% for post in site.posts %}
+    {% if post.tags contains "frontpage" %}
     <li>
       <div class="row">
         <div class="col-md-2">
           <div class="post-meta-block">
             <span class="day-block">{{ post.date | date: "%-d" }}</span>
             <span class="month-block">{{ post.date | date: "%B" }}</span>
-            
           </div>
         </div>
         <div class="col-md-10">
@@ -31,6 +43,7 @@ layout: default
         </div>
       </div>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </div>
