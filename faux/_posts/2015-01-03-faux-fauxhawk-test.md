@@ -3,6 +3,7 @@ layout: post
 title:  "Faux's Test Post"
 date:   2015-01-03
 author: faux
+tags: frontpage
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis accumsan, mi ut scelerisque blandit, ligula mauris hendrerit arcu, id volutpat purus mi elementum dui. Sed sit amet tortor nec neque dapibus facilisis ac id augue. In eget velit vel massa pellentesque convallis vitae ut urna. Nulla nec risus ac lorem convallis porttitor eu eget sapien. Proin vitae magna vel eros efficitur pretium. Aenean vel mauris nec urna congue lobortis. Vivamus fermentum tellus non quam mattis, at mollis ligula egestas. Cras eu orci tempus, dictum orci in, tristique erat. Quisque suscipit maximus ipsum quis cursus. Integer vestibulum facilisis porta.
 

@@ -73,6 +73,27 @@ ul.social-media-list {
   list-style-type: none;
 }
 
+.post-link {
+  font-weight: bold;
+}
+
+.post-title {
+  font-weight: bold;
+}
+
+.post-meta {
+  a {
+    color: $brand-primary;
+  }
+}
+
+.post {
+  font-size: $font-size-large;
+  a {
+    color: $brand-info;
+  }
+}
+
 .post-meta-block {
   margin-top: 21px;
   color: $brand-info;
