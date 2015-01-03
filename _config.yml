@@ -1,0 +1,10 @@
+# Site settings
+title: Software Design - Spring 2015
+description: >
+  Our site for all things related to the Spring 2015 Software Design
+  course taught at The Blake School in Minneapolis, MN.
+url: "http://blakecs-spring2015.github.io/" 
+github_username: blakecs-spring2015
+
+# Build settings
+markdown: kramdown
