@@ -9,7 +9,7 @@ layout: default
       {% assign author = site.data.authors[post.author] %}
       <li class="recent-post">
         <span class="recent-post-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
-        <span class="recent-post-author">by {{ author.name }}</span>
+        <span class="recent-post-author">by <a href="/{{ post.author }}">{{ author.name }}</a></span>
       </li>
       {% endfor %}
     </ul>
@@ -17,7 +17,7 @@ layout: default
   <div class="sidebar-block"><h3>Authors</h3>
     <ul class="author-list">
       {% for author in site.data.authors %}
-      <li>{{ author[1].name }}</li>
+      <li><a href="/{{ author[0] }}">{{ author[1].name }}</a></li>
       {% endfor %}
     </ul>
   </div>
@@ -27,21 +27,7 @@ layout: default
     {% for post in site.posts %}
     {% if post.tags contains "frontpage" %}
     <li>
-      <div class="row">
-        <div class="col-md-2">
-          <div class="post-meta-block">
-            <span class="day-block">{{ post.date | date: "%-d" }}</span>
-            <span class="month-block">{{ post.date | date: "%B" }}</span>
-          </div>
-        </div>
-        <div class="col-md-10">
-          <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-          <div class="author-block">by {{ site.data.authors[post.author].name }}</div>
-          <div class="post-excerpt">
-            {{ post.excerpt }}
-          </div>
-        </div>
-      </div>
+      {% include post-list-entry.html post='post' %}
     </li>
     {% endif %}
     {% endfor %}
