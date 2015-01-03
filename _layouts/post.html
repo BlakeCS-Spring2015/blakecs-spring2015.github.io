@@ -26,7 +26,7 @@ layout: default
   <div class="row author-info">
     <div class="col-md-2 col-md-offset-4">
       {% if author.avatar %}
-      <img class="author-avatar" src="/img/{{ author.avatar }}" />
+      <img class="author-avatar author-footer" src="/{{ page.author }}/{{ author.avatar }}" />
       {% endif %}
     </div>
     <div class="col-md-2">
