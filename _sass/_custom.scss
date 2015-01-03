@@ -1,0 +1,79 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.content-row {
+  padding-top: 21px;
+  background: #fff;
+}
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: $brand-primary;
+  color: #fff;
+}
+
+ul.social-media-list {
+  list-style-type: none;
+  
+  li {
+    color: #fff;
+    display: inline;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+.sidebar {
+  border-right: 1px solid $gray-light;
+  margin-bottom: 20px;
+  min-height: 500px;
+}
+
+.author-list {
+  list-style-type: none;
+}
+
+.post-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.post-meta-block {
+  margin-top: 21px;
+  color: $brand-info;
+  
+  .day-block {
+    display: block;
+    font-size: 39px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.1;
+  }
+  
+  .month-block {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.5;
+  }
+}
+
+.author-block {
+    padding-bottom: 12px;
+}
+
+.post-excerpt {
+  font-size: $font-size-large;
+}
+
+.post {
+  padding-bottom: 21px;
+}
