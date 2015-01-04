@@ -56,13 +56,21 @@ layout: default
   {% endif %}
 </div>
 <div class="col-md-8 content">
+  {% assign author_posts = (site.posts | where: 'author', page.author) %}
+  {% if author_posts == empty %}
+  <div class="no-posts">
+    <h2>Nothing to see...</h2>
+    <p>
+      It doesn't look like this author has written anything yet!
+    </p>
+  </div>
+  {% else %}
   <ul class="post-list">
-    {% for post in site.posts %}
-    {% if post.author == page.author %}
+    {% for post in author_posts %}
     <li>
       {% include post-list-entry.html post='post' %}
     </li>
-    {% endif %}
     {% endfor %}
   </ul>
+  {% endif %}
 </div>

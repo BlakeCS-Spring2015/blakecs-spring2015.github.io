@@ -16,7 +16,8 @@ layout: default
   </div>
   <div class="sidebar-block"><h3>Authors</h3>
     <ul class="author-list">
-      {% for author in site.data.authors %}
+      {% assign authors = (site.data.authors | sort) %}
+      {% for author in authors %}
       <li><a href="/{{ author[0] }}">{{ author[1].name }}</a></li>
       {% endfor %}
     </ul>

@@ -194,3 +194,11 @@ img.author-avatar {
   top: -4px;
   padding-left: 4px;
 }
+
+.no-posts {
+  h2 {
+    font-weight: bold;
+  }
+  font-size: $font-size-large;
+  min-height: 300px;
+}
