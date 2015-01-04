@@ -1,6 +1,125 @@
 sean:
-  name: Sean Hickey
+  name: Sean
   email: shickey@blakeschool.org
   twitter: seanhic
   github: shickey
+  avatar: avatar.jpg
+
+pierce:
+  name: Pierce
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+samira:
+  name: Samira
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+radek:
+  name: Radek
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+edmund:
+  name: Edmund
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+gabe:
+  name: Gabe
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+laura:
+  name: Laura
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+quinn:
+  name: Quinn
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+camren:
+  name: Camren
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+brendan:
+  name: Brendan
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+dominic:
+  name: Dominic
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+caitlin:
+  name: Caitlin
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+carolyn:
+  name: Carolyn
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+olivia:
+  name: Olivia
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+schmitty:
+  name: Schmitty
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+nick:
+  name: Nick
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+ben:
+  name: Ben
+  email: 
+  twitter: 
+  github: 
+  avatar: avatar.jpg
+
+jason:
+  name: Jason
+  email: 
+  twitter: 
+  github: 
   avatar: avatar.jpg
