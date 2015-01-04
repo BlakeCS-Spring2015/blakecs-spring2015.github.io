@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="col-md-3 sidebar text-right">
+<div class="col-md-2 col-md-offset-1 sidebar text-right">
   <div class="sidebar-block">
     <h3>Recent Posts</h3>
     <ul>
@@ -14,7 +14,8 @@ layout: default
       {% endfor %}
     </ul>
   </div>
-  <div class="sidebar-block"><h3>Authors</h3>
+  <div class="sidebar-block">
+    <h3>Authors</h3>
     <ul class="author-list">
       {% assign authors = (site.data.authors | sort) %}
       {% for author in authors %}

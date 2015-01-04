@@ -43,6 +43,9 @@ ul.social-media-list {
   }
   .sidebar-block {
     margin-bottom: 36px;
+    h3 {
+      border-bottom: 1px solid #fff;
+    }
   }
   .recent-post {
     margin-bottom: 14px;
@@ -50,7 +53,7 @@ ul.social-media-list {
   .recent-post-title {
     display: block;
     font-size: $font-size-large;
-    line-height: 0.8;
+    line-height: 1.0;
   }
   .recent-post-author {
     font-size: $font-size-small;
