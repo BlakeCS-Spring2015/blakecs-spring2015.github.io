@@ -74,6 +74,7 @@ ul.social-media-list {
 .post-list {
   padding-left: 0;
   list-style-type: none;
+  min-height: 700px;
 }
 
 .post-link {
@@ -130,6 +131,11 @@ ul.social-media-list {
 
 .post-excerpt {
   font-size: $font-size-large;
+}
+
+a.continue-reading {
+  color: $brand-info;
+  font-size: $font-size-base;
 }
 
 .author-info {
