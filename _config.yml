@@ -9,3 +9,4 @@ github_username: blakecs-spring2015
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude: ['scripts']
