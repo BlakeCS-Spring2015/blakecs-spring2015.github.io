@@ -9,6 +9,8 @@ Just in case you didn't know, we are using Markdown in class, a really cool comp
 
 You can do so much, but knowing how to do it can be hard. I'm going to make a quick blog post for people who want to get crackin on updating their blog. I can't spoil all of the mystery for you yet, so I'm just going to include some md shortcuts. 
 
+<br>
+
 ### Headings!
 
 + A Heading on your blog post gives it an air of importance and pomp. 
@@ -17,15 +19,41 @@ You can do so much, but knowing how to do it can be hard. I'm going to make a qu
 
 # Heading 
 
-##Heading
+## Heading
 
-###Heading
+### Heading
 
-####Heading 
+#### Heading 
 
 ##### Heading  
 
-+ To make something a heading, you just put a "#" sing before it in your code. For example, The largest heading size  is "# Heading"
++ To make something a heading, you just put a "#" sign before it or underline it with "=" or "-" 
+
+<!-- arbitrary comment --> 
+
+    # Heading 
+
+    ##### Heading 
+
+or 
+
+	Heading  
+	====
+
+	Heading  
+	----
+
+<br> 
+
+### Emphasis!
+
+You can *Italicise* and **bold** things like this!
+
+    *Italics*  or _Italics_
+
+    **bold** or  __both__
+
+<br> 
 
 ### Links!
 
@@ -35,6 +63,14 @@ You can do so much, but knowing how to do it can be hard. I'm going to make a qu
 
 [glitchy]: (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+    [alt text](link "link name")
+
+or 
+
+    [alt text][i]
+    [i]: (link "link name")
+
+<br>
 
 ### Pictures! 
 
@@ -44,14 +80,25 @@ You can do so much, but knowing how to do it can be hard. I'm going to make a qu
 
 [gif1]:http://a.fod4.com/images/GifGuide/dancing/30075yu908.gif "I am having way to much fun with this (;-)"
 
-+ You start with an "!", followed by alternative text in [in brackets], and the link (in pharenthesies)
+![Picturrrrrrrre!!!](http://i302.photobucket.com/albums/nn112/Claudnsophia/dancing-man.gif)
 
+
+    ![alt text](link "link name")
+
+or 
+
+    ![alt text][i]
+    [i]: (link "link name")
+
+<br> 
 
 ### Blockquotes!
 
-> I honestly just think that this looks really cool, and makes everything I write seem fancy
+> I honestly just think that this looks really cool, and makes everything I write seem fancy.
 
-+ To blockquote text, precede it with an ">". 
+    > Blockquote
+
+<br>
 
 ### Youtube Videos
 
@@ -65,10 +112,13 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 + To insert a video, use this template 
 
-> Put this 
-> "href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE" target="_blank"" 
-> Inside link brackets. 
-> "src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"" 
-> This should go in Image brackets inside the link brackets. 
+<!-- arbitrary comment -->
+
+    <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE" target="_blank">
+    <img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"/></a>
+
+
+
+
 
 
