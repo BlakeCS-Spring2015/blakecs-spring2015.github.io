@@ -3,6 +3,7 @@ layout: post
 title: "Markdown Cheat Sheet"
 date: 2015-01-05 15:11:00
 author: schmitty
+tags: frontpage
 ---
 
 Just in case you didn't know, we are using Markdown in class, a really cool compressed version of html that makes formatting things like this blog post **a lot** easier!
