@@ -6,6 +6,10 @@
   font-size: 24px;
 }
 
+a#site-brand:hover {
+  color: $brand-info;
+}
+
 .content-row {
   background: $brand-info;
 }
