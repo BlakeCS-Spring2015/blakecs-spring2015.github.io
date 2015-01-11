@@ -6,7 +6,7 @@ author: caitlin
 ---
 
 
-#### What I Learned: Week 1
+#### What I Learned: Week One
 
 This week, while focusing on a problem as simple as scheduling, I learned that in order to have a successful product, you must consider all perspectives to a problem. On our first try, we looked at the scheduling problem from only one perspective-that of the students-because that is the only way we have considered the schedule in the past. There are multiple groups to consider, however, when changing the schedule. The lunch staff need split lunches, athletes need the day to end at 3:00, teachers need longer blocks to teach more effectivly, and so on. 
 We worked as a team and all shared our ideas with one another, and then  presented our work to the class and guest teachers. We found iCal to be an effective way to display our schedule and it was really easy to manipulate in the process. 
