@@ -8,35 +8,35 @@ tags: frontpage
 
 Just in case you didn't know, we are using Markdown in class, a really cool compressed version of html that makes formatting things like this blog post **a lot** easier!
 
-You can do so much, but knowing how to do it can be hard. I'm going to make a quick blog post for people who want to get crackin on updating their blog. I can't spoil all of the mystery for you yet, so I'm just going to include some md shortcuts. 
+You can do so much, but knowing how to do it can be hard. I'm going to make a quick blog post for people who want to get crackin on updating their blog. I can't spoil all of the mystery for you yet, so I'm just going to include some md shortcuts.
 
 <br>
 
 ### Headings!
 
-+ A Heading on your blog post gives it an air of importance and pomp. 
++ A Heading on your blog post gives it an air of importance and pomp.
 
 ..* Some different heading sizes:
 
-# Heading 
+# Heading
 
 ## Heading
 
 ### Heading
 
-#### Heading 
+#### Heading
 
 ##### Heading  
 
-+ To make something a heading, you just put a "#" sign before it or underline it with "=" or "-" 
++ To make something a heading, you just put a "#" sign before it or underline it with "=" or "-"
 
-<!-- arbitrary comment --> 
+<!-- arbitrary comment -->
 
-    # Heading 
+    # Heading
 
-    ##### Heading 
+    ##### Heading
 
-or 
+or
 
 	Heading  
 	====
@@ -44,7 +44,7 @@ or
 	Heading  
 	----
 
-<br> 
+<br>
 
 ### Emphasis!
 
@@ -54,7 +54,7 @@ You can *Italicise* and **bold** things like this!
 
     **bold** or  __both__
 
-<br> 
+<br>
 
 ### Links!
 
@@ -66,16 +66,16 @@ You can *Italicise* and **bold** things like this!
 
     [alt text](link "link name")
 
-or 
+or
 
     [alt text][i]
     [i]: (link "link name")
 
 <br>
 
-### Pictures! 
+### Pictures!
 
-+ You can also add pictures, kind of like this. 
++ You can also add pictures, kind of like this.
 
 ![alt text][gif1]
 
@@ -86,12 +86,12 @@ or
 
     ![alt text](link "link name")
 
-or 
+or
 
     ![alt text][i]
     [i]: (link "link name")
 
-<br> 
+<br>
 
 ### Blockquotes!
 
@@ -107,19 +107,13 @@ or
 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=dQw4w9WgXcQ
-" target="_blank"><img src="http://www.ccny.cuny.edu/compsci/images/compscibanner.jpg" 
+" target="_blank"><img src="http://www.ccny.cuny.edu/compsci/images/compscibanner.jpg"
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
-+ To insert a video, use this template 
++ To insert a video, use this template
 
 <!-- arbitrary comment -->
 
     <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE" target="_blank">
     <img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"/></a>
-
-
-
-
-
-
