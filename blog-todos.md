@@ -9,7 +9,7 @@ Why not make the blog better?! Here's a bunch of things that would probably be c
 
 + An 'authors' page that displays each author's name, info, and avatar in a grid format
 + A page that lists _all_ posts in reverse chronological order
-+ A "How to post" post (covering GitHub for Mac, the new_post.rb script, etc.)
++ ~~[**Ben and Schmitty**] A "How to post" post (covering GitHub for Mac, the new_post.rb script, etc.)~~
 + A section for tutorial posts we create for each other (a la Schmitty's Markdown Cheat Sheet post)
 + The ability to comment on posts
 + Google Analytics
