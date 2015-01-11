@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "groupworkmethodology"
+title: "group_work_methodology"
 date: 2015-01-09 10:48:28
 author: radek
 ---
+
+# Things Groups Do With **Problems**
 
 This week was focused on developing research, design, presentation and information sharing skills. 
 
