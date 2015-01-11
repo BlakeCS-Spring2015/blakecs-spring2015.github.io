@@ -9,12 +9,12 @@ shortname = gets.chomp
 if not authors.include? shortname
   puts "That's not a name I recognize!"
 else
-print "What is the title of your new post? "
-title = gets.chomp
+  print "What is the title of your new post? "
+  title = gets.chomp
 
-now = DateTime.now
+  now = DateTime.now
 
-new_post = <<EOF
+  new_post = <<EOF
 ---
 layout: post
 title: "#{title}"
@@ -25,14 +25,14 @@ author: #{shortname}
 This is a brand new post!
 EOF
 
-friendly_title = title.downcase.gsub(/[^a-z ]/, '').gsub(' ', '-')
+  friendly_title = title.downcase.gsub(/[^a-z ]/, '').gsub(' ', '-')
 
-filepath_relative_to_siteroot = "/#{shortname}/_posts/#{now.to_date.to_s}-#{friendly_title}.md"
+  filepath_relative_to_siteroot = "/#{shortname}/_posts/#{now.to_date.to_s}-#{friendly_title}.md"
 
-filepath = File.expand_path("../#{filepath_relative_to_siteroot}")
+  filepath = File.expand_path("../#{filepath_relative_to_siteroot}")
 
-File.open(filepath, 'w') { |file| file.write new_post }
+  File.open(filepath, 'w') { |file| file.write new_post }
 
-puts "Created new post at #{filepath_relative_to_siteroot}"
+  puts "Created new post at #{filepath_relative_to_siteroot}"
 
 end
