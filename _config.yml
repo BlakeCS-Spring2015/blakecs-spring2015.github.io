@@ -7,6 +7,8 @@ email: shickey@blakeschool.org
 github_username: blakecs-spring2015
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["strikethrough"]
 permalink: pretty
 exclude: ['scripts']
