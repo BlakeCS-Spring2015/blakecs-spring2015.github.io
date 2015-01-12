@@ -70,6 +70,10 @@ __This should be both but isn't__
 
 Does it need paranthesis?
 
+I think the paranthesis are used for linking to other things on the site. 
+
+Your link leads to http://blakecs-spring2015.github.io/schmitty/2015/01/05/markdown-cheatsheet/(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 
 
 <br>
