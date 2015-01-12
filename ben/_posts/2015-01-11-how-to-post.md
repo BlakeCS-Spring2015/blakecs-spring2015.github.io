@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "How to Post"
 date: 2015-01-11 17:15:00
 permalink: /how-to-post/
@@ -7,9 +7,9 @@ author: ben
 tags: frontpage
 ---
 
-[Schmitty](/schmitty) and [Ben](/ben) wrote this page. 
+and [Schmitty](/schmitty)
 
-# Making a New Post
+<br>
 
 In order to make a new post, you will have to have GitHub for Mac set up with commit privilges to [the blog's repository](https://github.com/BlakeCS-Spring2015/blakecs-spring2015.github.io). You will need to learn a bit about Terminal to make a new post.
 
