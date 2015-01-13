@@ -62,7 +62,7 @@ You can *Italicise* and **bold** things like this!
 
 + [For example][glitchy]
 
-[glitchy]: (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[glitchy]: (http://i302.photobucket.com/albums/nn112/Claudnsophia/dancing-man.gif)
 
     [alt text](link "link name")
 
