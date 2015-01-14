@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Post"
+title: "How to Post to the Blog"
 date: 2015-01-11 17:15:00
 permalink: /how-to-post/
 author: ben
