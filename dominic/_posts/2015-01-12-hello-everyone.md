@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Hello Everyone!"
 date: 2015-01-12 08:29:46
 author: dominic
