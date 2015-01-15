@@ -1,5 +1,10 @@
+---
 layout: page
-title: Magic?
-permalink: /magic/
+title: Magic
+permalink: /Magic/
+---
 
-Let's see if this works. Is this truly magic?
+# This is a test section
+
+Is this truly magic?
+
