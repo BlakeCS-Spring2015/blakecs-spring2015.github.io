@@ -20,4 +20,5 @@ Pierce:
 
 
 
-Carolyn:
+Carolyn: Adding text.
+== compares two values
