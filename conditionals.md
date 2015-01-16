@@ -4,16 +4,12 @@ title: Conditionals
 permalink: /conditionals/
 ---
 
-Conditionals
-
-
-Laura:
-
-
+# Conditionals Tutorial
 
 
 Olivia:
-# hello all
+
+
 
 
 Pierce:
@@ -21,3 +17,7 @@ Pierce:
 
 
 Carolyn:
+
+
+
+Olivia:
