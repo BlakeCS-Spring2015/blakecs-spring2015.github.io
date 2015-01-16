@@ -4,7 +4,7 @@ title: For Loops
 permalink: /ForLoops/
 ---
 
-##Loop a definite number of times
+###Loop a definite number of times
 
 Loop over the items in a collection:
 
@@ -15,5 +15,4 @@ Loop over the items in a collection:
     for i in range(0,5):
         i += 1
         print i
-
 
