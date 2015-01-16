@@ -20,4 +20,9 @@ Carolyn:
 
 
 
+<<<<<<< HEAD
 Olivia:
+=======
+Carolyn: Adding text.
+== compares two values
+>>>>>>> FETCH_HEAD
