@@ -7,7 +7,7 @@ permalink: /blog-todos/
 # Bored?
 Why not make the blog better?! Here's a bunch of things that would probably be cool to have:
 
-+ An 'authors' page that displays each author's name, info, and avatar in a grid format
++ [__Schmitty__] An 'authors' page that displays each author's name, info, and avatar in a grid format
 + A page that lists _all_ posts in reverse chronological order
 + ~~[**Ben and Schmitty**] A "How to post" post (covering GitHub for Mac, the new_post.rb script, etc.)~~
 + A section for tutorial posts we create for each other (a la Schmitty's Markdown Cheat Sheet post)
