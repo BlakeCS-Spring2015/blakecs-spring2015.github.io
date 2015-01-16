@@ -4,8 +4,5 @@ title: While Loops
 permalink: /WhileLoops/
 ---
 
-# This is a test section
+# While Loops
 
-I found out how to make this.
-
-Is good.
