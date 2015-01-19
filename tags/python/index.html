@@ -39,7 +39,8 @@ layout: default
 <div class="col-md-8 content">
   <ul class="post-list">
     {% for post in site.posts %}
-    {% if post.tags contains "frontpage" %}
+    <!-- Change the line below to change tag -->
+    {% if post.tags contains "python" %}
     <li>
       {% include post-list-entry.html post='post' %}
     </li>
