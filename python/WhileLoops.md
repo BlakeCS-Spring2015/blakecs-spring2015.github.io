@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: While Loops
 permalink: /WhileLoops/
+tags: python
 ---
 
 # While Loops

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<!-- Sidebar -->
 <div class="col-md-2 col-md-offset-1 sidebar text-right">
   <div class="sidebar-block">
     <h3>Recent Posts</h3>
@@ -22,8 +23,16 @@ layout: default
       <li><a href="/{{ author[0] }}">{{ author[1].name }}</a></li>
       {% endfor %}
     </ul>
+    <h3>Tags</h3>
+    <ul>
+        {% for tag in site.tags %}    
+            <li><a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a></li>
+        {% endfor %}
+    </ul>
   </div>
 </div>
+
+<!-- Content -->
 <div class="col-md-8 content">
   <ul class="post-list">
     {% for post in site.posts %}

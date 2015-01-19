@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: For Loops
 permalink: /ForLoops/
+tags: python
 ---
 
 #Loop a definite number of times

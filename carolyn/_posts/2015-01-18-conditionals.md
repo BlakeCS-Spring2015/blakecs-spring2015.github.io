@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Conditionals
-permalink: /conditionals/
+title: "Conditionals"
+date: 2015-01-18 21:43:06
+author: carolyn
+tags: python
 ---
 
 # Conditionals Tutorial
@@ -24,4 +26,3 @@ Carolyn:
 Olivia:
 
 Carolyn: Adding text compares two values
-
