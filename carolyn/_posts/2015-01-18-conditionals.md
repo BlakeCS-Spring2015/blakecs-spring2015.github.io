@@ -46,14 +46,12 @@ Typically this type of syntax is used with conditionals in order to compare the 
 x = raw_input("What day of the week is it? (M, T, W, R, or F) ") 
 if x == "M" or x == "F":
   print "You have CS class but no assembly!"
-else:
-  if x == "T" or x == "R": 
-    print "You have CS class and assembly today!"   
-  else: 
-    if x == "W": 
-      print "You don't have CS class or assembly today!"
-    else: 
-      print "Silly that's not an option"
+elif x == "T" or x == "R": 
+	print "You have CS class and assembly today!"   
+elif x == "W": 
+	print "You don't have CS class or assembly today!"
+else: 
+    print "Silly that's not an option"
 
 
 
