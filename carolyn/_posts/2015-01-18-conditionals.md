@@ -32,11 +32,34 @@ syntax:
 
 
 
-Carolyn:
+
+Some important information which connects to conditoinals are the comparisons/conditions. This group of syntax covers the operators that can be used to compare one of three data types (string, int, and float) to an input of the same data type. The output is then a bool (True or False).
+
+3 == 3   #True  (are these two values equal to each other?)
+3 == 4   #False (are these two values equal to each other?)
+3 != 4   #True  (are these two values not equal to each other?)
+3 > 3.0  #True  (is the first value greater than the second value?)
+3 >= 3.0 #True  (is the first value greater than or equal to the second value?)
+
+Typically this type of syntax is used with conditionals in order to compare the users input to a stored value. This is shown in the following example:
+
+x = raw_input("What day of the week is it? (M, T, W, R, or F) ") 
+if x == "M" or x == "F":
+  print "You have CS class but no assembly!"
+else:
+  if x == "T" or x == "R": 
+    print "You have CS class and assembly today!"   
+  else: 
+    if x == "W": 
+      print "You don't have CS class or assembly today!"
+    else: 
+      print "Silly that's not an option"
 
 
 
 
 Olivia:
 
-Carolyn: Adding text compares two values
+
+
+
