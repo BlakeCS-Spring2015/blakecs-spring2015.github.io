@@ -19,7 +19,7 @@ layout: default
 
     <h3>Tags</h3>
     <ul>
-        {% for tag in site.tags %}    
+        {% for tag in site.tags %}
             <li><a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a></li>
         {% endfor %}
     </ul>
@@ -31,17 +31,9 @@ layout: default
       <li><a href="/{{ author[0] }}">{{ author[1].name }}</a></li>
       {% endfor %}
     </ul>
-    
+
   </div>
-  <div class="sidebar block">
-  <ul class="author-list">
-      {% assign authors = (site.data.authors | sort) %}
-      {% for author in authors %}
-      <li><a href="/{{ author[0] }}">{{ author[1].name }}</a></li>
-      {% endfor %}
-    </ul>
-    <h3>Test</h3>
-  </div>
+  
 </div>
 
 <!-- Content -->
