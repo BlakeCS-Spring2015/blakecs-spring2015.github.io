@@ -1,6 +1,16 @@
 ---
 layout: default
+title: "Bakken App"
+permalink: /Bakken_App/
+date: 2015-01-26 12:28:01
+author: schmitty
 ---
+
+
+
+
+<div class="container-fluid" >
+
 <!-- Sidebar -->
 <div class="col-md-2 col-md-offset-1 sidebar text-right">
   <div class="sidebar-block">
@@ -19,36 +29,38 @@ layout: default
 
     <h3>Tags</h3>
     <ul>
-        {% for tag in site.tags %}
-          {% if tag[0] == "Bakken_App" %}
-            <li></li>
-          {% else %}
-            <li><a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a></li>
-          {%endif %}
-        {% endfor %}
+            {% for tag in site.tags %}
+              {% if tag[0] == "Bakken_App" %}
+                <li></li>
+              {% else %}
+                <li><a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a></li>
+              {%endif %}
+            {% endfor %}
     </ul>
 
-  <h3>Authors</h3>
+    <h3>Authors</h3>
     <ul class="author-list">
       {% assign authors = (site.data.authors | sort) %}
       {% for author in authors %}
       <li><a href="/{{ author[0] }}">{{ author[1].name }}</a></li>
       {% endfor %}
     </ul>
-
   </div>
-
 </div>
+
 
 <!-- Content -->
 <div class="col-md-8 content">
   <ul class="post-list">
     {% for post in site.posts %}
-    {% if post.tags contains "frontpage" %}
-    <li>
+    {% if post.tags contains "Bakken_App" %}
+
       {% include post-list-entry.html post='post' %}
-    </li>
+
     {% endif %}
     {% endfor %}
   </ul>
+</div>
+
+
 </div>
