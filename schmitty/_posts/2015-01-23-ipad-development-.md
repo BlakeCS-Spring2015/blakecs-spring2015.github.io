@@ -3,6 +3,7 @@ layout: post
 title: "IPad development "
 date: 2015-01-23 08:47:48
 author: schmitty
+tags:
 ---
 
 ## Ipad Apps and Other Fun Things
